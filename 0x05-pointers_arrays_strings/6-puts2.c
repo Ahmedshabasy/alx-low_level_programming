@@ -4,14 +4,17 @@
  * puts2 - print numbers of string that divide on 2
  *
  * @str: string input
+ *
+ * Return: nothing
  */
 
 void puts2(char *str)
 {
-	int len = strlen(str);
+	int i;
 
-	for (int i = 0; i < len; i += 2)
+	for (int i = 0;str[i] !='\0'; ++i)
 	{
+		if (i % 2 == 0)
 		_putchar(str[i]);
 	}
 	_putchar('\n');
