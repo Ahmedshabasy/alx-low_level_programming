@@ -26,7 +26,7 @@ int is_prime_number(int n)
 
 int is_prime_number(int n)
 {
-	if (o  >= n && n > 1)
+	if (o >= n && n > 1)
 		return (1);
 	else if (n % o == 0 || n <= 1)
 		return (0);
