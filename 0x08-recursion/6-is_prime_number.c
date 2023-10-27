@@ -20,6 +20,7 @@ int is_prime_number(int n)
  * check_prime - fuction that print prime number
  *
  * @n: int input
+ * @o: other input
  *
  * Return: int
 */

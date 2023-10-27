@@ -19,6 +19,7 @@ int _sqrt_recursion(int n)
  * square - function calculate sqaure root
  *
  * @n: function input
+ * @val: value input
  *
  * Return: int
 */
