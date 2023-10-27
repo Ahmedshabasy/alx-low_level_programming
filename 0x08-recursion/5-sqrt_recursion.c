@@ -16,7 +16,7 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * _sqrt_recursion - function calculate sqaure root
+ * square - function calculate sqaure root
  *
  * @n: function input
  *
