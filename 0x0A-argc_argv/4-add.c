@@ -7,7 +7,7 @@
  * @argc: int
  * @argv : list
  *
- * Return: 0 (success), 1 (error)
+ * Return: 0 (success), 1 (Error)
 */
 
 int main(int argc, char *argv[])
@@ -15,12 +15,22 @@ int main(int argc, char *argv[])
 	int sum = 0;
 	char *c;
 
-	while (--argc)
+	if (arg == 1)
 	{
-		for (c = argv[argc]; *c; c++)
+		printf("0\n");
+		return (0);
+	}
+	for (int i = 1; i < argc; i++)
+	{
+		for ( c= argv[i]; *c; c++)
+		{
 			if (*c < '0' || *c > '9')
-				return (printf("Error\n"), 1);
-		sum += atoi(argv[argc]);
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
 	return (0);
