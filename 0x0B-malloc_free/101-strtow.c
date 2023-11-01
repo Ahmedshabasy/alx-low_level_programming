@@ -4,7 +4,7 @@
  * wrdcnt - function that counts words
  *
  * @s: char
- * Return: 0 (success)
+ * Return: int
 */
 
 int wrdcnt(char *s)
@@ -22,7 +22,7 @@ int wrdcnt(char *s)
 			n++;
 	}
 	n++;
-	return (0);
+	return (n);
 }
 
 /**
