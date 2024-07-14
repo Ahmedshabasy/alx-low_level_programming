@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <stdlib.h>
 
 /**
  * main - function taht make addition on array
