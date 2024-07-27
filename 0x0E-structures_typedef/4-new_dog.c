@@ -42,7 +42,7 @@ char *_strcopy(char *dest, char *src)
  * new_dog - function creat new dog
  *
  * @name: name
- * @hage: age
+ * @age: age
  * @owner: dog owner
  *
  * Return: struct pointer
@@ -66,7 +66,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	dog-> owner = malloc(sizeof(char) * (_strlen(owner) + 1));
+	dog->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
 	if ((*dog).owner == NULL)
 	{
 		free(dog->name);
