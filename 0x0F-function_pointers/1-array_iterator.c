@@ -2,10 +2,9 @@
 
 /**
  * array_iterator - maps an array
- *
- * @*array: the int
+ * @array: the int array
  * @size: array size
- * @*action: function pointer
+ * @action: function pointer
  *
  * Return: void
  */
