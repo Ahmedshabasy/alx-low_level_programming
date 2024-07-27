@@ -2,6 +2,7 @@
 
 /**
  * array_iterator - maps an array
+ *
  * @array: the int
  * @size: array size
  * @action: function pointer
