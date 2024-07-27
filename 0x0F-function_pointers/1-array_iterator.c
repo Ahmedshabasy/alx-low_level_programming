@@ -3,11 +3,11 @@
 /**
  * array_iterator - maps an array
  *
- * @array: the int
+ * @*array: the int
  * @size: array size
- * @action: function pointer
+ * @*action: function pointer
  *
- * Return: 0
+ * Return: void
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
