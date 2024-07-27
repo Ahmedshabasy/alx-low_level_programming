@@ -11,7 +11,7 @@
  * @f: the function
  */
 
-typeof struct op
+struct op
 {
 	char *op;
 	int (*f)(int a, int b);
