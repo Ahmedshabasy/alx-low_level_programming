@@ -10,9 +10,8 @@
 
 unsigned long int _pow(unsigned int base, unsigned int power)
 {
-	unsigned long int num;
+	unsigned long int num = 1;
 	unsigned int a;
-	num = 1;
 
 	for (a = 1; a <= power; a++)
 		num *= base;
@@ -29,8 +28,7 @@ unsigned long int _pow(unsigned int base, unsigned int power)
 void print_binary(unsigned long int n)
 {
 	unsigned long int divisor, check;
-	char flag;
-	flag = 0;
+	char flag = 0;
 	divisor = _pow(2, sizeof(unsigned long int) * 8 - 1);
 
 	while (divisor != 0)
